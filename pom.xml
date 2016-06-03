@@ -7,7 +7,7 @@
     <version>1.554</version>
   </parent>
   
-  <name>Naginator</name>
+  <name>NaginatorG5K</name>
   <description>
     Naginator is a plugin for Hudson that schedules a new build
     immediately following a build failure, thereby nagging the
@@ -15,7 +15,7 @@
   </description>
   <artifactId>naginator</artifactId>
   <packaging>hpi</packaging>
-  <version>1.16-SNAPSHOT</version>
+  <version>1.17-SNAPSHOT</version>
   <url>
     http://wiki.jenkins-ci.org/display/JENKINS/Naginator+Plugin
   </url>
