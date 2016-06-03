@@ -24,7 +24,7 @@ import java.util.logging.Logger;
 public class NaginatorPublisher extends Notifier {
     private final String regexpForRerun;
     private final boolean rerunIfUnstable;
-    private final boolean rerunMatrixPart;
+    private final boolean rerunMatrixPart = true;
     private final boolean checkRegexp;
 
     private ScheduleDelay delay;
@@ -47,7 +47,6 @@ public class NaginatorPublisher extends Notifier {
                               ScheduleDelay delay) {
         this.regexpForRerun = regexpForRerun;
         this.rerunIfUnstable = rerunIfUnstable;
-        this.rerunMatrixPart = rerunMatrixPart;
         this.checkRegexp = checkRegexp;
         this.maxSchedule = maxSchedule;
         this.delay = delay;
